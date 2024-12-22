@@ -1,5 +1,5 @@
 const { default: flattenColorPalette } = require("tailwindcss/lib/util/flattenColorPalette");
-
+const svgToDataUri = require("mini-svg-data-uri");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -8,6 +8,7 @@ module.exports = {
     "./app/**/*.{js,jsx,ts,tsx}",
     "./components/**/*.{js,jsx,ts,tsx}",
     "./pages/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
     extend: {
@@ -88,7 +89,6 @@ module.exports = {
         }),
       }, { values: flattenColorPalette(theme("backgroundColor")), type: "color" });
     },
-
   ],
 };
 
