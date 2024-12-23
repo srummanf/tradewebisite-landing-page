@@ -18,7 +18,7 @@ const ScrollSection = () => {
             <Badge className="h-10 w-10 transform -rotate-12" />
           </Link>
         }
-        src={`/linear.webp`}
+        src={`/rhino.jpeg`}
         showGradient={false}
       />
     </div>
