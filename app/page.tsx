@@ -11,6 +11,7 @@ import MarqueeSlider from "@/components/MarqueeSlider";
 import Pricing from "@/components/Pricing";
 import FAQs from "@/components/FAQs";
 import SpotlightHero from "@/components/SpotlightHero";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <Pricing/>
       <MarqueeCardSection/>
       <FAQs/>
+      <Footer/>
     </>
   );
 }
