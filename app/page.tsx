@@ -10,12 +10,14 @@ import MarqueeSlider from "@/components/MarqueeSlider";
 
 import Pricing from "@/components/Pricing";
 import FAQs from "@/components/FAQs";
+import SpotlightHero from "@/components/SpotlightHero";
+
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero2 />
+      <SpotlightHero/>
       <ScrollSection/>
       <CardGridSection/>
       <MarqueeSlider />
