@@ -7,7 +7,7 @@ import ScrollSection from "@/components/ScrollSection";
 import CardGridSection from "@/components/CardGridSection";
 import MarqueeCardSection from "@/components/MarqueeCardSection";
 import MarqueeSlider from "@/components/MarqueeSlider";
-import CardSpotlightDemo  from "@/components/CardSpotlightDemo";
+
 import Pricing from "@/components/Pricing";
 import FAQs from "@/components/FAQs";
 
@@ -22,7 +22,6 @@ export default function Home() {
       <Pricing/>
       <MarqueeCardSection/>
       <FAQs/>
-      {/* <CardSpotlightDemo/> */}
     </>
   );
 }
