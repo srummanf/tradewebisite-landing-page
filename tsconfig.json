@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"], // Includes required libraries
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // Includes required libraries
     "allowJs": true,
     "skipLibCheck": true, // Helps avoid type conflicts in node_modules
     "strict": true,
@@ -11,7 +15,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx", // Ensures compatibility with the React JSX runtime
+    "jsx": "preserve", // Ensures compatibility with the React JSX runtime
     "incremental": true,
     "plugins": [
       {
@@ -19,7 +23,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
   "include": [
@@ -28,5 +34,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

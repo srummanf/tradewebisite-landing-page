@@ -8,7 +8,7 @@ const Navbar = () => {
     const [menuOne, setMenuOne] = useState(false);
     return (
         <section>
-            <nav className="font-inter mx-auto h-auto w-full max-w-screen-2xl lg:relative lg:top-0">
+            <nav className="font-inter mx-auto h-auto w-full max-w-screen-2xl lg:relative lg:top-0 sticky backdrop-filter backdrop-blur-lg">
                 <div className="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20">
                     <a href="#">
                         <svg

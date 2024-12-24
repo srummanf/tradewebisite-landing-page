@@ -2,11 +2,13 @@
 import React from "react";
 import { Spotlight } from "./ui/spotlight";
 import { SparklesCore } from "./ui/sparkles";
+import Navbar from "@/components/Navbar";
 
 const SpotlightHero = () => {
     return (
         <div
-            className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+            className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-slate-900 antialiased bg-grid-white/[0.02] relative overflow-hidden">
+            
             {/* Sparkle effect */}
             <div className="absolute inset-0 flex justify-center items-end">
                 <SparklesCore
@@ -26,8 +28,15 @@ const SpotlightHero = () => {
                 <div className="flex flex-col items-center justify-center overflow-hidden rounded-md relative z-20">
 
                     <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white">
-                        Aceternity
+                        Supercharge you
                     </h1>
+                    <div className="flex items-center justify-center group rounded text-sm font-semibold   from-pink-300 via-purple-300 to-indigo-400 p-0.5 w-fit">
+                        <div className=" bg-transparent w-fit h-full p-1.5">
+                            <h1 className="font-extrabold text-transparent text-7xl sm:text-4xl xl:text-7xl bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 bg-transparent h-full">
+                            trading strategy    
+                            </h1>
+                        </div>
+                    </div>
 
                     <div className="w-[40rem] h-40 relative">
                         {/* Gradients */}
@@ -42,13 +51,27 @@ const SpotlightHero = () => {
                         <div className="absolute inset-0 w-full h-full opacity-90 [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                         <div className="flex justify-center">
                             <p className="font-normal text-base text-neutral-300 max-w-lg text-center mx-auto mt-7">
-                                Spotlight effect is a great way to draw attention to a specific part
-                                of the page. Here, we are drawing the attention towards the text
-                                section of the page. I don&apos;t know why but I&apos;m running out of
-                                copy.
+                            Unlock the most powerful trading tools and AI platform used by 100,000+ traders globally.
+                            Get 30 Days Risk Free
                             </p>
                         </div>
                     </div>
+                    <button className="group inline-flex items-center space-x-2 bg-slate-800/50 hover:bg-slate-800 text-white px-6 py-3 rounded-full transition-all duration-200">
+                        <span>Get 30 Days Risk Free</span>
+                        <svg
+                            className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-200"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M14 5l7 7m0 0l-7 7m7-7H3"
+                            />
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>

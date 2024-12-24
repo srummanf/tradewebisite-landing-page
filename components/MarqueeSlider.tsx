@@ -5,12 +5,12 @@ import { InfiniteSlider } from '@/components/ui/infinite-slider';
 
 const MarqueeSlider = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 bg-black text-white">
       <InfiniteSlider gap={24} reverse>
         <img
-          src='/apple_music_logo.svg'
+          src='/ddchrome_logo.svg'
           alt='Apple Music logo'
-          className='h-[120px] w-auto'
+          className='h-auto w-auto'
         />
         <img
           src='/chrome_logo.svg'
