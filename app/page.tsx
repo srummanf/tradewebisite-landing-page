@@ -14,6 +14,7 @@ import SpotlightHero from "@/components/SpotlightHero";
 import Footer from "@/components/Footer";
 import CompareComp from "@/components/CompareComp";
 import CardSample from "@/components/CardSample";
+import Dashboard from "@/components/Dashboard";
 
 
 export default function Home() {
@@ -25,7 +26,8 @@ export default function Home() {
       <SpotlightHero />
       {/* <ScrollSection/> */}
       <CompareComp />
-      <CardSample />
+      <Dashboard/>
+      {/* <CardSample /> */}
       {/* <CardGridSection /> */}
       {/* <MarqueeSlider /> */}
       <Pricing />
