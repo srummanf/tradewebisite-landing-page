@@ -2,13 +2,14 @@
 import React from "react";
 import { Spotlight } from "./ui/spotlight";
 import { SparklesCore } from "./ui/sparkles";
+import { Cover } from "@/components/ui/cover";
 import Navbar from "@/components/Navbar";
 
 const SpotlightHero = () => {
     return (
         <div
-            className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-slate-900 antialiased bg-grid-white/[0.02] relative overflow-hidden">
-            
+            className="h-[40rem] w-full flex md:items-center md:justify-center bg-slate-900 antialiased bg-grid-white/[0.02] relative overflow-hidden">
+            {/* <Navbar/> */}
             {/* Sparkle effect */}
             <div className="absolute inset-0 flex justify-center items-end">
                 <SparklesCore
@@ -27,15 +28,17 @@ const SpotlightHero = () => {
 
                 <div className="flex flex-col items-center justify-center overflow-hidden rounded-md relative z-20">
 
-                    <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white">
+                    <h1 className="text-9xl font-bold text-center text-white">
                         Supercharge you
                     </h1>
                     <div className="flex items-center justify-center group rounded text-sm font-semibold   from-pink-300 via-purple-300 to-indigo-400 p-0.5 w-fit">
-                        <div className=" bg-transparent w-fit h-full p-1.5">
-                            <h1 className="font-extrabold text-transparent text-7xl sm:text-4xl xl:text-7xl bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 bg-transparent h-full">
-                            trading strategy    
+                        <div className=" bg-transparent w-fit h-full p-1.5 flex flex-col justify-center items-center">
+                            <h1 className="font-extrabold text-5xl  h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                                trading strategy  <br />   
                             </h1>
+                            
                         </div>
+                       
                     </div>
 
                     <div className="w-[40rem] h-40 relative">
@@ -51,8 +54,8 @@ const SpotlightHero = () => {
                         <div className="absolute inset-0 w-full h-full opacity-90 [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                         <div className="flex justify-center">
                             <p className="font-normal text-base text-neutral-300 max-w-lg text-center mx-auto mt-7">
-                            Unlock the most powerful trading tools and AI platform used by 100,000+ traders globally.
-                            Get 30 Days Risk Free
+                                Unlock the most powerful trading tools and AI platform used by 100,000+ traders globally.
+                                Get 30 Days Risk Free
                             </p>
                         </div>
                     </div>
@@ -72,6 +75,7 @@ const SpotlightHero = () => {
                             />
                         </svg>
                     </button>
+                    {/* <Cover>Get 30 Days Risk Free</Cover> */}
                 </div>
             </div>
         </div>

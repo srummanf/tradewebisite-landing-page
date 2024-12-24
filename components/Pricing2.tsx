@@ -24,9 +24,9 @@ const Pricing2 = () => {
                     {/* Essential Plan */}
                     <div className="relative rounded-2xl bg-gradient-to-br from-slate-800 to-slate-900 p-6 space-y-6">
                         <div
-                            className="absolute top-0 right-0 w-[150px] h-[150px] bg-contain bg-no-repeat bg-top-right pointer-events-none opacity-50"
+                            className="absolute top-0 right-0 w-[350px] h-[350px] bg-contain bg-no-repeat bg-top-right pointer-events-none opacity-50 rounded-t-xl"
                             style={{
-                                backgroundImage: "url('https://www.luxalgo.com/images/graphics/top_right_orange_pink_stroke.png')"
+                                backgroundImage: "url('https://www.luxalgo.com/images/graphics/top_right_cobalt_diamond.svg')"
                             }}
                         />
                         <div className="space-y-2">
@@ -72,9 +72,9 @@ const Pricing2 = () => {
                     {/* Premium Plan */}
                     <div className="relative rounded-2xl bg-gradient-to-br from-slate-800 via-slate-900 to-blue-900 p-6 space-y-6">
                         <div
-                            className="absolute top-0 right-0 w-[150px] h-[150px] bg-contain bg-no-repeat bg-top-right pointer-events-none opacity-50"
+                            className="absolute top-0 right-0 w-[350px] h-[350px] bg-contain bg-no-repeat bg-top-right pointer-events-none opacity-50 rounded-t-xl"
                             style={{
-                                backgroundImage: "url('https://www.luxalgo.com/images/graphics/top_right_orange_pink_stroke.png')"
+                                backgroundImage: "url('https://www.luxalgo.com/images/graphics/top_right_cobalt_monitor_cursor.svg')"
                             }}
                         />
                         <div className="space-y-2">
@@ -120,9 +120,9 @@ const Pricing2 = () => {
                     {/* Ultimate Plan */}
                     <div className="relative rounded-2xl bg-gradient-to-br from-slate-800 via-purple-900 to-purple-800 p-6 space-y-6">
                         <div
-                            className="absolute top-0 right-0 w-[150px] h-[150px] bg-contain bg-no-repeat bg-top-right pointer-events-none opacity-50"
+                            className="absolute top-0 right-0 w-[350px] h-[350px] bg-contain bg-no-repeat bg-top-right pointer-events-none opacity-50 rounded-t-xl"
                             style={{
-                                backgroundImage: "url('https://www.luxalgo.com/images/graphics/top_right_orange_pink_stroke.png')"
+                                backgroundImage: "url('https://www.luxalgo.com/images/graphics/top_right_cobalt_square_magnifying_glass.svg')"
                             }}
                         />
                         <div className="absolute top-4 right-4">

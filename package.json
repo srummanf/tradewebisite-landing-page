@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@next/font": "^14.2.15",
     "@react-three/fiber": "^8.17.10",
     "@tabler/icons-react": "^3.26.0",
     "@tsparticles/engine": "^3.7.1",

@@ -19,13 +19,16 @@ import CardSample from "@/components/CardSample";
 export default function Home() {
   return (
     <>
+
+
       <Navbar />
+
       <SpotlightHero />
       {/* <ScrollSection/> */}
       <CompareComp />
       <CardSample />
       {/* <CardGridSection /> */}
-      <MarqueeSlider />
+      {/* <MarqueeSlider /> */}
       <Pricing />
       <MarqueeCardSection />
       <FAQs />
