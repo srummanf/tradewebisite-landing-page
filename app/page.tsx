@@ -22,7 +22,6 @@ export default function Home() {
 
 
       <Navbar />
-
       <SpotlightHero />
       {/* <ScrollSection/> */}
       <CompareComp />
