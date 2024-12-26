@@ -31,6 +31,7 @@ export default function Home() {
       {/* <CardGridSection /> */}
       {/* <MarqueeSlider /> */}
       <Pricing />
+      {/* Given below is testimonials */}
       <MarqueeCardSection />
       <FAQs />
       <Footer />

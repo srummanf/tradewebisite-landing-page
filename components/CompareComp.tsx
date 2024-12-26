@@ -4,7 +4,7 @@ import { Compare } from "@/components/ui/compare";
 const CompareComp = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-black">
-            <div className="p-4 border rounded-3xl dark:bg-neutral-900 bg-neutral-100 border-neutral-200 dark:border-neutral-800">
+            <div className="p-4 rounded-3xl">
                 <Compare
                     firstImage="https://cdn.prod.website-files.com/62f11b068296f36584c1ec32/6606172379d796e7b5845114_rdsfasd34.png"
                     secondImage="https://cdn.prod.website-files.com/62f11b068296f36584c1ec32/660617245e1b01c5af3b20de_gdsasdfg342.png"

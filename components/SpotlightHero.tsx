@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 
 const SpotlightHero = () => {
     return (
-        <div className="h-[33rem] sm:h-[20rem] md:h-[40rem] lg:h-[40rem] w-full flex md:items-center md:justify-center bg-black antialiased bg-grid-white/[0.02] relative overflow-hidden">
+        <div className="h-screen w-screen flex items-center justify-center bg-black antialiased bg-grid-white/[0.02] relative overflow-hidden">
             {/* <Navbar/> */}
             {/* Sparkle effect */}
             <div className="absolute inset-0 flex justify-center items-end">
