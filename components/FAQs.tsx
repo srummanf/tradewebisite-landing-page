@@ -21,26 +21,32 @@ const FAQs: React.FC = () => {
   // FAQs array
   const faqs: FAQ[] = [
     {
-      question: "How this theme is different from others in the market?",
+      question: "What tools are included to simplify trading?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna.",
+        "Our platform provides multi-timeframe support & resistance zones, AI-powered signals, and auto golden pocket calculations to help you trade with confidence.",
     },
     {
-      question: "What is your policy on distribution of Devjoy assets?",
+      question: "How does the trading confirmation system work?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna.",
+        "The confirmation system uses advanced analytics and real-time data to validate buy and sell points, giving traders clear and actionable insights.",
     },
     {
-      question: "How can I contribute to Devjoy?",
+      question: "Can beginners use this platform effectively?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna.",
+        "Absolutely! Our platform is designed with simplicity in mind, offering intuitive tools and guidance to help traders of all levels elevate their performance.",
     },
     {
-      question: "What other themes do you have?",
+      question: "What results can I expect from using this trading platform?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna.",
+        "Results may vary based on individual strategies, but many users have reported improved accuracy and profitability using our powerful confirmation tools.",
+    },
+    {
+      question: "Is customer support available for trading assistance?",
+      answer:
+        "Yes, we offer 24/7 customer support to assist you with any questions or challenges you might face while using our platform.",
     },
   ];
+
 
   return (
     <section>
